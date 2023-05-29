@@ -1,4 +1,4 @@
-import './Listitems.css';
+import './listitem.css';
 const ListItems = ({ item }) => {
 	return (
 		<li>
