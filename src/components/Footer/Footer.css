@@ -1,0 +1,10 @@
+footer {
+	background-color: #303030;
+	color: white;
+	position: sticky;
+	bottom: 0;
+	z-index: 10;
+	padding: 0.6rem;
+	overflow: hidden;
+	text-align: center;
+}

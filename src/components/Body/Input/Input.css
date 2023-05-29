@@ -1,0 +1,63 @@
+.input {
+	padding: 1.5rem;
+	position: sticky;
+	top: 5.7rem;
+	z-index: 10;
+	background-color: white;
+	overflow: hidden;
+}
+label {
+	display: none;
+}
+input,
+select {
+	padding: 0.7rem;
+	border-radius: 0.3rem;
+	border: 1.5px solid black;
+}
+input:focus,
+select:focus {
+	outline: 1px solid hsl(210, 100%, 50%);
+}
+.part1 {
+	padding: 0 2rem 1rem;
+	text-align: center;
+}
+.part1 input {
+	width: 100%;
+}
+
+.part2 {
+	padding: 1rem 2rem 0;
+	display: flex;
+	justify-content: space-evenly;
+	gap: 1rem;
+}
+.part2 #customer-name {
+	min-width: 300px;
+}
+.part2 .addcust-btn {
+	background-color: hsl(122, 35%, 55%);
+	border: none;
+}
+.part2 .addcust-btn:hover {
+	cursor: pointer;
+}
+.part2 .addcust-btn:focus {
+	outline: none;
+}
+.part2 .addcust-btn:active {
+	transform: scale(0.95);
+}
+.error {
+	border: 2px solid red;
+}
+@media (max-width: 700px) {
+	.input {
+		position: static;
+		z-index: 0;
+	}
+	.part2 {
+		flex-direction: column;
+	}
+}
