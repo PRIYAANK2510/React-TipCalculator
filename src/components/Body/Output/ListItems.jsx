@@ -1,4 +1,3 @@
-import './listitem.css';
 const ListItems = ({ item }) => {
 	return (
 		<li>
